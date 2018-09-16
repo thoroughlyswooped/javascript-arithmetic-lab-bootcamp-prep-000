@@ -15,5 +15,13 @@ function divide(a,b) {
 }
 
 function inc(a) {
-  a++;
+  return a++;
 }
+function dec(a) {
+  return a--;
+}
+function makeInt(a) {
+  return parseInt(a, 10);
+}
+
+function 
